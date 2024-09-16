@@ -1,0 +1,22 @@
+### Versão atual de Stellaria: `24.3` e `24.3U`
+Em sua última iteração, o sistema Stellaria foi dividido em duas variantes: principal e Umbra. A variante principal irá funcionar com base no d20, e a variante Umbra no d100. Ambos os sistemas serão desenvolvidos separadamente, com foco na variante principal. O desenvolvimento da variante Umbra será pausado após o fim de Dark Forest 2: Memórias Fantasma.
+### Updates no Livro do Jogador 24.3U
+- Suporte para d20 completamente removido do Livro
+- Formatação atualizada
+- Textos desnecessários foram simplificados/removidos
+- Itens adicionados/alterados:
+ - Kit Médico Completo (Nerf)
+ - Kit Médico Rápido (Adicionado como alternativa mais útil em combate)
+- Sistema de level up adicionado
+- Remoção de erros de digitação
+### Updates no Compêndio do Conjurador 24.3U
+- Explicações sobre a mecânica de conjuração adicionadas
+- Rituais agora estão organizados em suas respectivas Classes
+- Classe 4 adicionada
+- Rituais adicionados/alterados:
+ - Aperto da Umbra (Mudança de nome, Aperto de Cthulhu -> Aperto da Umbra; Custo de Estamina diminuído)
+ - Proteção (Rework)
+ - Sensor Umbral Menor (Nova magia Classe 1)
+ - Sensor Umbral Maior (Nova magia Classe 1)
+ - Medo (Nova magia Classe 2)
+ - Howitzer (Nova magia Classe 4)
