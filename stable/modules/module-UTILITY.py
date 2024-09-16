@@ -46,7 +46,7 @@ class Utility(commands.Cog):
         except Exception as e:
             await ctx.reply(f"Um erro ocorreu: {e}")
 
-    # Help command: Lists all of Luna's commands.
+    # Help command: Lists all of Mira's commands.
     @commands.command(aliases = ['ajuda', 'h', 'a'])
     async def help(self, ctx, *, args = ""):
         try:
@@ -56,7 +56,7 @@ class Utility(commands.Cog):
             
             if args == "" or args == "--dm":
                 helpTextPath = "../text_files/helpMenu.txt"
-                helpMessage += f"## Ajuda Luna\n**Prefixo:** `{serverPrefix}`\nDigite `{serverPrefix}ajuda [categoria]` para ver cada categoria em mais detalhes.\n\n" 
+                helpMessage += f"## Ajuda Mira\n**Prefixo:** `{serverPrefix}`\nDigite `{serverPrefix}ajuda [categoria]` para ver cada categoria em mais detalhes.\n\n" 
             else:
                 if "utilidade" in args.lower():
                     helpTextPath = "../text_files/helpUtility.txt"
@@ -84,7 +84,7 @@ class Utility(commands.Cog):
         except Exception as e:
             await ctx.reply(f"Um erro ocorreu: {e}")
             
-    # Changelog command: Shows Luna's Latest updates
+    # Changelog command: Shows Mira's Latest updates
     @commands.command(aliases = ['cl', 'updates', 'upd'])
     async def changelog(self, ctx, *args):
         message = utils.getTextFromFile("../text_files/changelog.txt")
@@ -112,12 +112,6 @@ class Utility(commands.Cog):
             await ctx.reply(f"Resultado: **{result}**")
         except Exception as e:
             await ctx.reply(f"Erro na expressão: {str(e)}")
-    
-    # Test command: Miscellaneous testing command.
-    @commands.command()
-    async def admin(self, ctx):
-        if ctx.author.id == 501845881025462283:
-            await ctx.reply("yeeeeess")
         
     
 async def setup(bot):

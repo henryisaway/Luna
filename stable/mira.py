@@ -18,7 +18,7 @@ coloramaINIT()
 token = os.getenv("DISCORD_TOKEN")
 version = "2.0.3"
 intents = discord.Intents.all()
-activity = f"Versão {version} - Reporte bugs caso encontre algum!"
+activity = f"Version {version}"
 
 #-----------------------------------------------------------
 
