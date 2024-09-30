@@ -6,6 +6,7 @@ import sqlite3
 import os
 import asyncio
 import modules.utils as utils
+from dotenv import load_dotenv
 
 from colorama import init as coloramaINIT
 from colorama import Fore
@@ -15,7 +16,8 @@ coloramaINIT()
 #-----------------------------------------------------------
 
 # Bot variables setup
-token = os.getenv("DISCORD_TOKEN")
+load_dotenv(".env")
+token: str = os.getenv("DISCORD_TOKEN")
 version = "2.0.3"
 intents = discord.Intents.all()
 activity = f"Version {version}"
