@@ -1,6 +1,0 @@
-deprecated/
-refs/
-stable/.env
-.gitignore
-stable/modules/module-JOKE.py
-stable/run.sh
