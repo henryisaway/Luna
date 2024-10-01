@@ -39,9 +39,10 @@ class Character:
 	name: str
 	level: int
 	exp: int
-	archetype: Archetype
-	essence: Essence
 	attributes: Attributes
-	activeWeapon: int
-	activeArmor: int
-	inventory: Item
+
+@dataclass
+class Player:
+	username: str
+	ID: int
+	character: Character
